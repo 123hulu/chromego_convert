@@ -1808,6 +1808,13 @@ proxies:
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
+  - name: NL 🇳🇱-Hysteria2 | 1-0
+    type: hysteria2
+    server: 163.172.220.28
+    port: 11622
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
   - name: 🏳 CloudFlare-vmess | 0-0
     type: vmess
     server: 104.21.238.35
@@ -2013,6 +2020,7 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
       - RU 🇷🇺-Hysteria2 | 0-0
+      - NL 🇳🇱-Hysteria2 | 1-0
       - 🏳 CloudFlare-vmess | 0-0
       - 🏳 CloudFlare-vmess | 1-0
       - 🏳 CloudFlare-vmess | 2-0
@@ -2141,6 +2149,7 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
       - RU 🇷🇺-Hysteria2 | 0-0
+      - NL 🇳🇱-Hysteria2 | 1-0
       - 🏳 CloudFlare-vmess | 0-0
       - 🏳 CloudFlare-vmess | 1-0
       - 🏳 CloudFlare-vmess | 2-0
@@ -2269,6 +2278,7 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
       - RU 🇷🇺-Hysteria2 | 0-0
+      - NL 🇳🇱-Hysteria2 | 1-0
       - 🏳 CloudFlare-vmess | 0-0
       - 🏳 CloudFlare-vmess | 1-0
       - 🏳 CloudFlare-vmess | 2-0
