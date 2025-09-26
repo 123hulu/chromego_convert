@@ -172,10 +172,10 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: US 🇺🇸-Hysteria2 | 0-0
+  - name: CloudFlare 🇨🇱-Hysteria2 | 0-0
     type: hysteria2
-    server: 104.168.10.176
-    port: 35205
+    server: '[2001'
+    port: .nan
     password: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -231,7 +231,7 @@ proxy-groups:
       - NL 🇳🇱-Hysteria | 1-0
       - NL 🇳🇱-Hysteria | 2-0
       - NL 🇳🇱-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
+      - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
   - name: ♻️ 自动选择
@@ -251,7 +251,7 @@ proxy-groups:
       - NL 🇳🇱-Hysteria | 1-0
       - NL 🇳🇱-Hysteria | 2-0
       - NL 🇳🇱-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
+      - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
   - name: ⚖ 负载均衡
@@ -271,7 +271,7 @@ proxy-groups:
       - NL 🇳🇱-Hysteria | 1-0
       - NL 🇳🇱-Hysteria | 2-0
       - NL 🇳🇱-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
+      - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
   - name: ☁ WARP前置节点
