@@ -116,11 +116,11 @@ proxies:
     protocol: udp
     up: 11 Mbps
     down: 55 Mbps
-  - name: LU 🇱🇺-Hysteria | 0-0
+  - name: CloudFlare 🇨🇱-Hysteria | 0-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -130,11 +130,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: LU 🇱🇺-Hysteria | 1-0
+  - name: CloudFlare 🇨🇱-Hysteria | 1-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -144,11 +144,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: LU 🇱🇺-Hysteria | 2-0
+  - name: CloudFlare 🇨🇱-Hysteria | 2-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -158,11 +158,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: LU 🇱🇺-Hysteria | 3-0
+  - name: CloudFlare 🇨🇱-Hysteria | 3-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -227,10 +227,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 4-1
       - FR 🇫🇷-hysteria | 5-1
       - FR 🇫🇷-hysteria | 6-1
-      - LU 🇱🇺-Hysteria | 0-0
-      - LU 🇱🇺-Hysteria | 1-0
-      - LU 🇱🇺-Hysteria | 2-0
-      - LU 🇱🇺-Hysteria | 3-0
+      - CloudFlare 🇨🇱-Hysteria | 0-0
+      - CloudFlare 🇨🇱-Hysteria | 1-0
+      - CloudFlare 🇨🇱-Hysteria | 2-0
+      - CloudFlare 🇨🇱-Hysteria | 3-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
@@ -247,10 +247,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 4-1
       - FR 🇫🇷-hysteria | 5-1
       - FR 🇫🇷-hysteria | 6-1
-      - LU 🇱🇺-Hysteria | 0-0
-      - LU 🇱🇺-Hysteria | 1-0
-      - LU 🇱🇺-Hysteria | 2-0
-      - LU 🇱🇺-Hysteria | 3-0
+      - CloudFlare 🇨🇱-Hysteria | 0-0
+      - CloudFlare 🇨🇱-Hysteria | 1-0
+      - CloudFlare 🇨🇱-Hysteria | 2-0
+      - CloudFlare 🇨🇱-Hysteria | 3-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
@@ -267,10 +267,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 4-1
       - FR 🇫🇷-hysteria | 5-1
       - FR 🇫🇷-hysteria | 6-1
-      - LU 🇱🇺-Hysteria | 0-0
-      - LU 🇱🇺-Hysteria | 1-0
-      - LU 🇱🇺-Hysteria | 2-0
-      - LU 🇱🇺-Hysteria | 3-0
+      - CloudFlare 🇨🇱-Hysteria | 0-0
+      - CloudFlare 🇨🇱-Hysteria | 1-0
+      - CloudFlare 🇨🇱-Hysteria | 2-0
+      - CloudFlare 🇨🇱-Hysteria | 3-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
