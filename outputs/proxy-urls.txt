@@ -1,6 +1,6 @@
 tuic://8687b6e0-ef24-4cd2-bcd2-02d3732bf554:dongtaiwang.com@2001:bc8:32d7:302::16:34997/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=NaN&disable_sni=0#FR 🇫🇷-tuic | 0-1
 tuic://8687b6e0-ef24-4cd2-bcd2-02d3732bf554:dongtaiwang.com@2001:bc8:32d7:302::16:34997/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=NaN&disable_sni=0#FR 🇫🇷-tuic | 1-1
-hysteria2://dongtaiwang.com@2001:bc8:32d7:302::17:20088/?sni=apple.com&insecure=NaN#FR 🇫🇷-hysteria2 | 2-1
+hysteria://2001:bc8:32d7:17b::2:11000/?protocol=udp&insecure=NaN&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#FR 🇫🇷-hysteria | 2-1
 hysteria://2001:bc8:32d7:158::4:50011/?protocol=udp&insecure=NaN&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#FR 🇫🇷-hysteria | 3-1
 hysteria://62.210.10.186:50011/?protocol=udp&insecure=NaN&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#FR 🇫🇷-hysteria | 4-1
 hysteria://2001:bc8:32d7:158::2:50011/?protocol=udp&insecure=NaN&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#FR 🇫🇷-hysteria | 5-1

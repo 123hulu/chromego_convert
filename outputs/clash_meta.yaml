@@ -37,11 +37,11 @@ proxies:
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: FR 🇫🇷-hysteria2 | 2-1
-    type: hysteria2
-    server: 2001:bc8:32d7:302::17
-    port: 20088
-    password: dongtaiwang.com
+  - name: FR 🇫🇷-hysteria | 2-1
+    type: hysteria
+    server: 2001:bc8:32d7:17b::2
+    port: 11000
+    auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
     alpn:
@@ -202,7 +202,7 @@ proxy-groups:
       - 🎯 全球直连
       - FR 🇫🇷-tuic | 0-1
       - FR 🇫🇷-tuic | 1-1
-      - FR 🇫🇷-hysteria2 | 2-1
+      - FR 🇫🇷-hysteria | 2-1
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
       - FR 🇫🇷-hysteria | 5-1
@@ -222,7 +222,7 @@ proxy-groups:
     proxies:
       - FR 🇫🇷-tuic | 0-1
       - FR 🇫🇷-tuic | 1-1
-      - FR 🇫🇷-hysteria2 | 2-1
+      - FR 🇫🇷-hysteria | 2-1
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
       - FR 🇫🇷-hysteria | 5-1
