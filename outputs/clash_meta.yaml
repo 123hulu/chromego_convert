@@ -51,8 +51,8 @@ proxies:
     down: 55 Mbps
   - name: FR 🇫🇷-hysteria | 3-1
     type: hysteria
-    server: 2001:bc8:32d7:158::4
-    port: 50011
+    server: 2001:bc8:32d7:902::3
+    port: 26691
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -63,8 +63,8 @@ proxies:
     down: 55 Mbps
   - name: FR 🇫🇷-hysteria | 4-1
     type: hysteria
-    server: 62.210.10.186
-    port: 50011
+    server: 62.210.196.68
+    port: 26691
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -75,8 +75,8 @@ proxies:
     down: 55 Mbps
   - name: FR 🇫🇷-hysteria | 5-1
     type: hysteria
-    server: 2001:bc8:32d7:158::2
-    port: 50011
+    server: 62.210.196.68
+    port: 26691
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -87,8 +87,8 @@ proxies:
     down: 55 Mbps
   - name: FR 🇫🇷-hysteria | 6-1
     type: hysteria
-    server: 2001:bc8:32d7:158::4
-    port: 50011
+    server: 2001:bc8:32d7:902::3
+    port: 26691
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
